@@ -25,7 +25,7 @@ export interface PostResponse {
 }
 
 export const postToSocialMedia = async (payload: PostPayload): Promise<PostResponse> => {
-  const res = await fetch("http://192.168.1.13:9002/api/upload-socialmedia/", {
+  const res = await fetch("https://phase1-fab7.onrender.com/api/upload-socialmedia/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
