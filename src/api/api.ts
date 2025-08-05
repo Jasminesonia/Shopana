@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://192.168.1.5:9007';
+const BASE_URL = 'https://phase1-fab7.onrender.com';
 
 export const api = axios.create({
   baseURL: BASE_URL,
